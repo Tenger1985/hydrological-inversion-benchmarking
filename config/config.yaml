@@ -1,0 +1,7 @@
+datapath: data #  Relative path to the main folder. Default is data
+scenario_name: S4 # We choose S4 or S0, as our replication dataset is based on Scenarios S4 or S0 (EnKF)
+replication_name: rep_S4b_EnKF # for your own replication data, this could be ignored
+dataset_doi:  doi:10.18419/darus-2382 # Will download reference and if available, replication data
+figurepath: output/figures # relative path to the main folder
+tablepath: output/tables # relative to the main folder
+api_key: SEC-RET # If you have an API key for the replication data, you can enter it here
